@@ -1,0 +1,4 @@
+# Ansible initial configuration fix
+sudo mkdir -p /etc/ansible
+sudo ansible-config init -f vars --disabled > /etc/ansible/ansible.cfg
+
